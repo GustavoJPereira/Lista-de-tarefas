@@ -6,7 +6,7 @@ type ContainerProps = {
 
 export const Container = styled.div(({ done }: ContainerProps) =>( `
 display: flex;
-background-color: #20212c;
+background-color: #DCDCDC;
 padding: 10px;
 border-radius: 10px;
 margin-bottom: 10px;
@@ -16,10 +16,11 @@ input {
  width: 25px;
  height: 25px;   
  margin-right: 5px;
+ color: #191919;
 }
 
 label {
-    color: #ccc;
+    color: #191919;
     text-decoration: ${done ? 'line-through' : 'initial'};
 }
 `));
